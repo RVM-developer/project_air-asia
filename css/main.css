@@ -406,7 +406,7 @@ body, html {
 }
 
 .about__desc {
-    background: url("/images/about_img/mountains.jpg") center center / cover no-repeat;
+    background: url("../images/about_img/mountains.jpg") center center / cover no-repeat;
     padding: 70px 81px;
     max-width: 785px;
     margin-left: 354px;
@@ -626,10 +626,6 @@ body, html {
     padding: 82px 0;
 }
 
-/* .inner-section--bg--grey {
-    background: ;
-} */
-
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
@@ -643,7 +639,14 @@ body, html {
 
 .partners__item {
     margin-left: 19px;
+    filter: grayscale(1);
 }
+
+.partners__item:hover {
+    margin-left: 19px;
+    filter: grayscale(0);
+}
+
 .partners__item:nth-child(4n + 1) {
     margin-left: 0;
 }
