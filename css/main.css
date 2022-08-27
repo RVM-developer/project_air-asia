@@ -585,6 +585,12 @@ body, html {
 .breadcrumbs__item:after {
     content: "/";
     color:#9a9a9a;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.breadcrumbs__link:after {
+    padding-right: 5px;
 }
 
 .breadcrumbs__item:last-child:after {
