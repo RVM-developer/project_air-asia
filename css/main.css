@@ -869,7 +869,7 @@ body, html {
 
 .form__controls-title {
     width: 40%;
-    padding-left: 30px;
+    font-size: 18px;
 }
 
 .controls__elem {
