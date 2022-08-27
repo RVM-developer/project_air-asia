@@ -114,10 +114,12 @@ body, html {
 .menu__link {
     font-size: 14px;
     text-decoration: none;
+    transition: .5s;
 }
 
 .menu__link:hover {
     color: #DA0100;
+    transition: 1s;
 }
 
 .contacts {
@@ -179,6 +181,10 @@ body, html {
     display: inline-block;
     font-size: 14px;
     text-align: center;
+}
+
+.button:hover {
+    background: #DA0100;
 }
 /* Горящие туры */
 
@@ -277,10 +283,12 @@ body, html {
     width: 135px;
     height: 55px;
     padding: 18px 22px;
+    transition: .5s;
 }
 .button--light:hover {
     background: #f5170e;
     color: #fff;
+    transition: 1s;
 }
 /* Новости и акции */
 .news__list {
@@ -386,11 +394,13 @@ body, html {
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    transition: .5s;
 }
 
 .paginator__link:hover {
     background: #fff;
     color: #f5170e;
+    transition: 1s;
 }
 /* О нас */
 .about {
@@ -497,27 +507,35 @@ body, html {
 
 .socials__item--icon--telegram .socials__link {
     background-image: url("../images/social_net/telegram.png");
+    transition: .5s;
 }
 .socials__item--icon--telegram .socials__link:hover {
     background-image: url("../images/social_net/t2.png");
+    transition: 1s;
 }
 .socials__item--icon--vk .socials__link {
     background-image: url("../images/social_net/vk.png");
+    transition: .5s;
 }
 .socials__item--icon--vk .socials__link:hover {
     background-image: url("../images/social_net/vk2.png");
+    transition: 1s;
 }
 .socials__item--icon--fb .socials__link {
     background-image: url("../images/social_net/f.png");
+    transition: .5s;
 }
 .socials__item--icon--fb .socials__link:hover {
     background-image: url("../images/social_net/f2.png");
+    transition: 1s;
 }
 .socials__item--icon--insta .socials__link {
     background-image: url("../images/social_net/in.png");
+    transition: .5s;
 }
 .socials__item--icon--insta .socials__link:hover {
     background-image: url("../images/social_net/in2.png");
+    transition: 1s;
 }
 
 /* services page */
@@ -621,10 +639,12 @@ body, html {
     width: 168px;
     height: 55px;
     padding: 18px 22px;
+    transition: .5s;
 }
 .btn--light:hover {
     background: #f5170e;
     color: #fff;
+    transition: 1s;
 }
 
 .inner-section {
@@ -652,6 +672,7 @@ body, html {
 .partners__item:hover {
     margin-left: 19px;
     filter: grayscale(0);
+    transition: 1s;
 }
 
 .partners__item:nth-child(4n + 1) {
@@ -665,6 +686,7 @@ body, html {
     height: 125px;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 /* partners footer */
 .inner-footer__container {
@@ -703,9 +725,15 @@ body, html {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #2e77a4;
+    color: #1a1b1e;
     margin-bottom: 11px;
     margin-left: 23px;
+    transition: .4s;
+}
+
+.review__user:hover {
+    color: #2e77a4;
+    transition: .7s;
 }
 
 .review__user::after {
@@ -871,12 +899,25 @@ body, html {
 
 .btn--color--black {
     background: #8e8e8e;
+    transition: .5s;
 }
 
 .btn--color--black:hover {
     background: #2b2b2b;
-     
+    transition: 1s;
 }
+
+.btn--color--red {
+    background: #F5170E;
+    transition: .5s;
+}
+
+.btn--color--red:hover {
+    background: #DA0100;
+    transition: 1s;
+}
+
+
 
 .form__btn:last-child {
     margin-right: 0;
@@ -962,8 +1003,6 @@ body, html {
     transition: opacity .4s; 
     left: -9999px;
     font-size: 13px;
-    width: 160px;
-    height: 70px;
 }
 
 .dropdown__menu:before {
@@ -976,7 +1015,7 @@ body, html {
     position: absolute;
 }
 
-.dropdown_list {
+.dropdown__list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
