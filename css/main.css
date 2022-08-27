@@ -358,7 +358,7 @@ body, html {
 
 .paginator--theme--light {
     color: #000;
-    margin-bottom: -18px;
+    margin-bottom: -10px;
 }
 
 .paginator--theme--light .paginator__item--active .paginator__link{
@@ -664,7 +664,7 @@ body, html {
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 55px;
+    margin-bottom: 38px;
 }
 
 .partners {
@@ -812,7 +812,7 @@ body, html {
 .separator__img{
     position: absolute;
     top: -108px;
-    left: 590px;
+    left: 620px;
 }
 
 .separator__content {
